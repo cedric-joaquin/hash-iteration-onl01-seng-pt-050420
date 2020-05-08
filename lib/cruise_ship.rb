@@ -8,7 +8,7 @@
 
 def select_winner(passengers)
   passengers.each do |room, name|
-    if room.include? "a" && name.downcase.include? "a"
+    if room.include?("a") && name.downcase.include?("a")
       lucky_winner = name 
     end
   end
