@@ -11,4 +11,5 @@ def select_winner(passengers)
     if room.include?("a") && name.downcase.include?("a")
       lucky_winner = name 
     end
+  end
 end
